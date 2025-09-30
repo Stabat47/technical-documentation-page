@@ -94,30 +94,34 @@ code {
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .page {
-    flex-direction: column;
-  }
-
   #navbar {
-    position: fixed;
-    width: 100%;
+    position: fixed;   
+    top: 0;
+    left: 0;
+    width: 100%;       
+    height: 50px;      
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    padding: 10px;
-    height: auto;
+    overflow-x: auto; 
+    padding: 0 10px;
+    background: #25265e;
+    z-index: 1000;     
   }
 
   #navbar a {
-    margin: 5px;
+    margin: 0 5px;
     font-size: 0.9rem;
+    padding: 5px 8px;
   }
 
   #main-doc {
     margin-left: 0;
+    margin-top: 60px;
     padding: 20px;
   }
 }
+
 
 @media (max-width: 480px) {
   #navbar a {
