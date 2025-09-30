@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Basics Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- Navigation -->
+    <nav id="navbar">
+      <header class="nav-header">HTML Menu</header>
+      <a href="#What_is_HTML?" class="nav-link">What is HTML?</a>
+      <a href="#What_are_Tags_and_Attributes?" class="nav-link">Tags & Attributes</a>
+      <a href="#HTML_Editors" class="nav-link">HTML Editors</a>
+      <a href="#Creating_Your_First_HTML_Webpage" class="nav-link">First Webpage</a>
+      <a href="#Adding_Content" class="nav-link">Adding Content</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-doc">
+      
+      <section class="main-section" id="What_is_HTML?">
+        <header><h2>What is HTML?</h2></header>
+        <p>Hypertext Markup Language (HTML) is the language in which most websites are written. HTML is used to create pages and make them functional.</p>
+        <h3>The History of HTML</h3>
+        <p>HTML was first created by Tim Berners-Lee, Robert Cailliau, and others starting in 1989. It stands for Hyper Text Markup Language.</p>
+        <p>Hypertext means that the document contains links that allow the reader to jump to other places in the document or to another document altogether. The latest version is known as HTML5.</p>
+        <p>A Markup Language is a way that computers speak to each other to control how text is processed and presented. To do this HTML uses two things: tags and attributes.</p>
+      </section>
+
+      <section class="main-section" id="What_are_Tags_and_Attributes?">
+        <header><h2>What are Tags and Attributes?</h2></header>
+        <p>Tags and attributes are the basis of HTML. They work together but perform different functions.</p>
+        <h3>What Are HTML Tags?</h3>
+        <p>Tags mark the start of an HTML element and are usually enclosed in angle brackets. Example:</p>
+        <code>&lt;h1&gt;This is a heading&lt;/h1&gt;</code>
+        <h3>What Are HTML Attributes?</h3>
+        <p>Attributes provide extra information to an element. Example:</p>
+        <code>&lt;img src="mydog.jpg" alt="A photo of my dog."&gt;</code>
+        <p>Here, <code>src</code> and <code>alt</code> are attributes of the <code>&lt;img&gt;</code> tag.</p>
+      </section>
+
+      <section class="main-section" id="HTML_Editors">
+        <header><h2>HTML Editors</h2></header>
+        <p>To start building a website, you need an HTML editor. Here are some popular choices:</p>
+
+        <h3>Sublime Text 3</h3>
+        <ul>
+          <li>Beginner-friendly</li>
+          <li>Easily customizable</li>
+          <li>Pleasant color schemes</li>
+        </ul>
+
+        <h3>Notepad++</h3>
+        <ul>
+          <li>Distraction-free interface</li>
+          <li>Auto-completion feature</li>
+          <li>Plugin options for extended functionalities</li>
+        </ul>
+
+        <h3>Komodo Edit</h3>
+        <ul>
+          <li>Free and open-source</li>
+          <li>Available for Mac, Windows, and Linux</li>
+          <li>Good language support</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Creating_Your_First_HTML_Webpage">
+        <header><h2>Creating Your First HTML Webpage</h2></header>
+        <p>Open your HTML editor and write the basic structure below:</p>
+        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Webpage&lt;/title&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="description" content="Basic HTML page"&gt;
+    &lt;meta name="author" content="Your Name"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </code>
+      </section>
+
+      <section class="main-section" id="Adding_Content">
+        <header><h2>Adding Content</h2></header>
+        <p>The <code>&lt;body&gt;</code> tag is where you add all visible content: text, images, tables, forms, etc.</p>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
